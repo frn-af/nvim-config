@@ -26,6 +26,9 @@ opt.termguicolors = true
 opt.background = 'dark'
 opt.signcolumn = 'yes'
 
+opt.updatetime = 250
+opt.timeoutlen = 300
+
 opt.backspace = 'indent,eol,start'
 
 opt.clipboard = 'unnamedplus'
