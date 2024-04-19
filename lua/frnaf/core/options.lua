@@ -23,23 +23,20 @@ opt.ignorecase = true
 opt.smartcase = true
 
 opt.termguicolors = true
-opt.background = 'dark'
-opt.signcolumn = 'yes'
+opt.background = "dark"
+opt.signcolumn = "yes"
 
 opt.updatetime = 250
 opt.timeoutlen = 300
 
-opt.backspace = 'indent,eol,start'
+opt.backspace = "indent,eol,start"
 
-opt.clipboard = 'unnamedplus'
+opt.clipboard = "unnamedplus"
 
 opt.splitright = true
-opt.splitbelow = true 
+opt.splitbelow = true
 
 opt.hlsearch = true
 
 opt.list = true
-opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
-
-
-
+opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
