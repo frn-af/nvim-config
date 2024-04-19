@@ -1,5 +1,6 @@
 return {
-    'tpope/vim-sleuth',
-    { 'numToStr/Comment.nvim', opts = {} },
-    'nvim-lua/plenary.nvim'
-  }
+	"tpope/vim-sleuth",
+	"github/copilot.vim",
+	{ "numToStr/Comment.nvim", opts = {} },
+	"nvim-lua/plenary.nvim",
+}
