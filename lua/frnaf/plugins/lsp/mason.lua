@@ -37,7 +37,7 @@ return { -- LSP Configuration & Plugins
 
 				map("<leader>ca", vim.lsp.buf.code_action, "[C]ode [A]ction")
 
-				map("K", vim.lsp.buf.hover, "Hover Documentation")
+				map("<leader>k", vim.lsp.buf.hover, "Hover Documentation")
 
 				-- WARN: This is not Goto Definition, this is Goto Declaration.
 				--  For example, in C this would take you to the header.
@@ -79,7 +79,14 @@ return { -- LSP Configuration & Plugins
 			--
 			-- But for many setups, the LSP (`tsserver`) will work just fine
 			tsserver = {},
-			--
+			tailwindcss = {
+				-- exclude a filetype from the default_config
+				filetypes_exclude = { "markdown" },
+				-- add additional filetypes to the default_config
+				filetypes_include = {},
+				-- to fully override the default_config, change the below
+				-- filetypes = {}
+			},
 
 			lua_ls = {
 				-- cmd = {...},
