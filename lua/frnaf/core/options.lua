@@ -17,7 +17,6 @@ opt.autoindent = true
 opt.wrap = false
 
 opt.cursorline = true
-opt.scrolloff = 999
 
 opt.ignorecase = true
 opt.smartcase = true
