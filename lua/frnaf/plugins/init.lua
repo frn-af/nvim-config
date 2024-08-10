@@ -5,8 +5,6 @@ return {
 	"nvim-lua/plenary.nvim",
 	{
 		"arnamak/stay-centered.nvim",
-		opts = {
-			skip_filetypes = { "typescript" },
-		},
+		opts = {},
 	},
 }
