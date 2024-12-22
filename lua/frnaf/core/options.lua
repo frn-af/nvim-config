@@ -5,6 +5,8 @@ local opt = vim.opt
 opt.number = true
 opt.relativenumber = true
 
+opt.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
+
 opt.showmode = false
 
 opt.undofile = true
