@@ -3,6 +3,21 @@ vim.g.maplocalleader = " "
 
 local keymap = vim.keymap
 
+-- For conciseness
+local opts = { noremap = true, silent = true }
+
+keymap.set("n", "x", '"_x', opts)
+
+keymap.set("n", "n", "nzzzv", opts)
+keymap.set("n", "N", "Nzzzv", opts)
+
+-- Stay in indent mode
+keymap.set("v", "<", "<gv", opts)
+keymap.set("v", ">", ">gv", opts)
+
+-- Keep last yanked when pasting
+keymap.set("v", "p", '"_dP', opts)
+
 keymap.set("i", "jj", "<ESC>", { desc = "Exit insert mode" })
 keymap.set("n", "<leader>w", "<cmd>update<CR>", { desc = "Save or update file" })
 

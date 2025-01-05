@@ -3,11 +3,11 @@
 -- config. This will add also the recommended keymaps.
 
 return {
-  {
-    'lewis6991/gitsigns.nvim',
-    opts = {
-      on_attach = function(bufnr)
-        local gitsigns = require 'gitsigns'
+	{
+		"lewis6991/gitsigns.nvim",
+		opts = {
+			on_attach = function(bufnr)
+				local gitsigns = require("gitsigns")
 
         local function map(mode, l, r, opts)
           opts = opts or {}
