@@ -11,6 +11,10 @@ opt.showmode = false
 
 opt.undofile = true
 
+opt.backup = false
+opt.writebackup = false
+opt.swapfile = false
+
 opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
