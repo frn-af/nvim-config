@@ -7,4 +7,8 @@ return {
 		"arnamak/stay-centered.nvim",
 		opts = {},
 	},
+	{
+		"MunsMan/kitty-navigator.nvim",
+		opts = { keybindings = {} },
+	},
 }
